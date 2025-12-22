@@ -5,3 +5,5 @@ Learn Git Branching is one of the most visual and interactive ways to learn Git 
 ## LEVEL-1 (Git Commits)
 
 A commit in a Git repository represents a snapshot of all tracked files at a specific point in time.
+
+<img width="1270" height="681" alt="Screenshot 2025-12-22 144436" src="https://github.com/user-attachments/assets/52139fd2-f591-4764-a4a4-8dac61497f94" />
