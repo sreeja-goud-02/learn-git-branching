@@ -17,3 +17,20 @@ In Git, branches are extremely lightweight. A branch is simply a pointer to a sp
 The following command is used to create and switch to a new branch in a single step:
 git checkout -b bugfix
 
+
+Branches and Merging
+Now that we understand how to create commits and branches, the next important step is learning how to combine work from different branches. This process is called merging.
+What is git merge?
+The git merge command is used to combine changes from one branch into another.
+
+
+<img width="1370" height="799" alt="Screenshot 2025-12-22 144957" src="https://github.com/user-attachments/assets/0b4083ec-96a6-47ac-89ad-7ce6c89d7dff" />
+
+Commands Executed
+The following commands were executed step by step to complete the level:
+git checkout -b bugfix
+git commit
+git checkout main
+git commit
+git merge bugfix
+
