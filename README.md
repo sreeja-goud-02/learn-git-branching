@@ -43,11 +43,11 @@ Git rebase is another method used to combine work from different branches. Unlik
 <img width="1375" height="786" alt="Screenshot 2025-12-22 145205" src="https://github.com/user-attachments/assets/3459840a-4a34-4e6f-856e-b92fc9b535e0" />
 
 Commands Executed
-git checkout -b bugFix
-git commit
-git checkout main
-git commit
-git checkout bugFix
-git rebase main
+1) git checkout -b bugFix
+2) git commit
+3) git checkout main
+4) git commit
+5) git checkout bugFix
+6) git rebase main
 
 
