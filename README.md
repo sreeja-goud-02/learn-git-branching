@@ -13,3 +13,7 @@ A commit in a Git repository represents a snapshot of all tracked files at a spe
 In Git, branches are extremely lightweight. A branch is simply a pointer to a specific commit—nothing more
 
 <img width="1361" height="824" alt="Screenshot 2025-12-22 144828" src="https://github.com/user-attachments/assets/98a7e540-2ae1-4158-a7ee-0fbdacad1939" />
+
+The following command is used to create and switch to a new branch in a single step:
+git checkout -b bugfix
+
