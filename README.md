@@ -20,6 +20,7 @@ git checkout -b bugfix
 
  
 ## LEVEL-1(Branches and Merging)
+
 Now that we understand how to create commits and branches, the next important step is learning how to combine work from different branches. This process is called merging.
 What is git merge?
 The git merge command is used to combine changes from one branch into another.
@@ -36,7 +37,7 @@ git commit
 git merge bugfix
 
 
-##LEVEL-1 (Git Rebase)
+## LEVEL-1 (Git Rebase)
 Git rebase is another method used to combine work from different branches. Unlike merging, rebasing works by taking a set of commits, copying them, and placing them on top of another branch
 
 <img width="1375" height="786" alt="Screenshot 2025-12-22 145205" src="https://github.com/user-attachments/assets/3459840a-4a34-4e6f-856e-b92fc9b535e0" />
