@@ -73,3 +73,24 @@ Commands Executed
 git checkout c4
 ```
 
+## SECTION -2 (LEVEL-2) -  Relative refs
+Relative refs let you refer to commits based on their position relative to another commit, usually HEAD.
+
+<img width="1912" height="904" alt="Screenshot 2025-12-23 111017" src="https://github.com/user-attachments/assets/92ad1f1e-e303-4f62-b4dc-23caab5efe22" />
+
+Commands Exceuted
+```
+git checkout C3
+```
+
+## SECTION -2 (LEVEL-3) - The "~" operator
+When you want to move multiple commits up the history, typing ^ again and again gets annoying. That’s why Git provides the tilde (~) operator.
+
+<img width="1916" height="898" alt="Screenshot 2025-12-23 111442" src="https://github.com/user-attachments/assets/1e944605-631c-4ab3-80ae-0c37dfd6a975" />
+
+Commands Executed
+```
+git branch -f main C6
+git branch -f bugFix HEAD~2
+git checkout C2
+```
