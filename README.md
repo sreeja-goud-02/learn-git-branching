@@ -30,11 +30,11 @@ The git merge command is used to combine changes from one branch into another.
 
 Commands Executed
 The following commands were executed step by step to complete the level:
- ```git checkout -b bugfix
-1) git commit
-2) git checkout main
-3) git commit
-4) git merge bugfix ```
+ ``` git checkout -b bugfix ```
+1)  ```git commit```
+2) ```git checkout main```
+3) ```git commit```
+4) ```git merge bugfix``` 
 
 
 
