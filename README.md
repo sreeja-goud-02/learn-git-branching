@@ -94,3 +94,19 @@ git branch -f main C6
 git branch -f bugFix HEAD~2
 git checkout C2
 ```
+
+## SECTION-2 (LEVEL-4) - Reversing Changes in Git
+In Git, reversing changes means undoing work that has already been done. Git gives you multiple tools for this, but at a high level there are two main commands:
+1.git reset
+2.git revert
+
+<img width="1914" height="888" alt="Screenshot 2025-12-23 112137" src="https://github.com/user-attachments/assets/cd182ccd-c045-4c9a-acdf-b3de55e9a510" />
+
+Commands Executed
+```
+git branch -f local C1
+git checkout pushed
+git revert pushed
+```
+
+
