@@ -37,6 +37,8 @@ The following commands were executed step by step to complete the level:
 4) git merge bugfix ```
 
 
+
+
 ## LEVEL-1 (Git Rebase)
 Git rebase is another method used to combine work from different branches. Unlike merging, rebasing works by taking a set of commits, copying them, and placing them on top of another branch
 
