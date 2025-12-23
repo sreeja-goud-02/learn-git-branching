@@ -1,8 +1,9 @@
+
 # LEARN-GIT-BRANCHING
 
 Learn Git Branching is one of the most visual and interactive ways to learn Git on the web.
 
-## LEVEL-1 (Git Commits)
+## SECTION -1 (LEVEL-1) - (Git Commits)
 
 A commit in a Git repository represents a snapshot of all tracked files at a specific point in time.
 
@@ -14,7 +15,7 @@ git commit
 ```
 
 
-## LEVEL-1 (Git Branches)
+## SECTION - 1 (LEVEL-2) - (Git Branches)
 In Git, branches are extremely lightweight. A branch is simply a pointer to a specific commit—nothing more
 
 <img width="1361" height="824" alt="Screenshot 2025-12-22 144828" src="https://github.com/user-attachments/assets/98a7e540-2ae1-4158-a7ee-0fbdacad1939" />
@@ -26,7 +27,7 @@ git checkout -b bugfix
 
 
  
-## LEVEL-1(Branches and Merging)
+## SECTION-1 (LEVEL-3) - (Branches and Merging)
 
 Now that we understand how to create commits and branches, the next important step is learning how to combine work from different branches. This process is called merging.
 What is git merge?
@@ -46,7 +47,7 @@ The following commands were executed step by step to complete the level:
 
 
 
-## LEVEL-1 (Git Rebase)
+## SECTION -1 (LEVEL-4) (Git Rebase)
 Git rebase is another method used to combine work from different branches. Unlike merging, rebasing works by taking a set of commits, copying them, and placing them on top of another branch
 
 <img width="1375" height="786" alt="Screenshot 2025-12-22 145205" src="https://github.com/user-attachments/assets/3459840a-4a34-4e6f-856e-b92fc9b535e0" />
@@ -59,5 +60,16 @@ Commands Executed
  git commit
  git checkout bugFix
  git rebase main
+```
+
+
+## SECTION-2 (LEVEL-1) - Moving around in Git
+In Git, “moving around” means changing where HEAD points in the commit history.
+
+<img width="1919" height="896" alt="Screenshot 2025-12-23 110215" src="https://github.com/user-attachments/assets/ba7a9e02-bfa2-43f8-b94e-d862d97993a4" />
+
+Commands Executed
+```
+git checkout c4
 ```
 
