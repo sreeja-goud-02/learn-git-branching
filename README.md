@@ -109,4 +109,21 @@ git checkout pushed
 git revert pushed
 ```
 
+## SECTION-3 (LEVEL-1) Moving Work Around
+It means:
+Taking commits from one place and putting them somewhere else
+
+<img width="1919" height="902" alt="Screenshot 2025-12-23 112515" src="https://github.com/user-attachments/assets/71ae0645-abf5-43bd-a1a9-5952c561e017" />
+Commands Executed
+```
+git cherry-pick C3 C4 C7
+```
+
+## SECTION-3 (LEVEL-2) Git Interactive Rebase
+Interactive rebase lets you:
+See a list of commits
+Decide what to do with each commit
+Reorder, edit, squash, or remove commits
+
+
 
